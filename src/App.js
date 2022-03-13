@@ -1,7 +1,11 @@
+import Dashboard from "./components/Dashboard";
+import LandingPage from "./components/LandingPage";
+import UserProfile from "./components/UserProfile";
 function App() {
   return (
     <div className="App">
-     <h1>hello</h1>
+      {/* <LandingPage title="Hello from Landing Page" /> */}
+      <Dashboard title="Hello from Dashboard" />
     </div>
   );
 }
