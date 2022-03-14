@@ -1,38 +1,23 @@
 function Navbar() {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            App Name
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-              <a class="nav-link active" aria-current="page" href="#">
-                Users
-              </a>
-              <a class="nav-link active" aria-current="page" href="#">
-                User
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <ul className="nav nav-tabs mb-0 h5 mt-2">
+      {/* <span className="navbar-brand mb-0 h1">Navbar</span> */}
+      <li className="nav-item">
+        <a className="nav-link active" aria-current="page" href="#">
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">
+          Dashboard
+        </a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">
+          User Profile
+        </a>
+      </li>
+    </ul>
   );
 }
 

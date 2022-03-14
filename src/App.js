@@ -44,13 +44,11 @@ function App() {
   ]);
   return (
     <div className="App">
-      {/* <LandingPage title="Hello from Landing Page" /> */}
-      <Dashboard title="Hello from Dashboard" />
+      
       <UserContext.Provider value={{ users, setUsers }}>
         <Navbar/>
         <Dashboard />
       </UserContext.Provider>
-      ;{/* <LandingPage title="Hello from Landing Page" /> */}
     </div>
   );
 }
